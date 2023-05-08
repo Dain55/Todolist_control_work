@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/scss/style.scss">
+    <link rel="stylesheet" href="./font/stylesheet.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>  
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div-info">
+         <h1>Учет сотрудников в компании Wepro</h1>
+         <h2>Общее число сотрудников:</h2>
+         <h2 id="value">Премию получат: 0</h2>
+      </div>
+      <div class="div-search">
+        <input id="search" type="search" placeholder="Найти сотрудника" name="search">
+        <div class="div-btn">
+          <button id="allHuman" class="btn-style">Все сотрудники</button>
+          <button id="Good_job" class="btn-style">На повышение</button>
+          <button id="UpMoney" class="btn-style">З/П больше 1000$</button>
+        </div>
+      </div>
+      <ul class="info-people">
+
+      </ul>
+      <div class="creator-todo">
+        <h1>Добавьте нового сотрудника</h1>
+      <form name="todos">
+          <input id="inpTodo" type="text" name="name" placeholder="Как его зовут?">
+          <input id="inpTodo" type="number" name="salary" placeholder="З/П в $?">
+          <button id="btnAdd">Добавить</button>
+      </form>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
